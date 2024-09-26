@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Remove local manifests if they exist
 rm -rf .repo/local_manifests/
 echo "======= remove local manifest success====="
