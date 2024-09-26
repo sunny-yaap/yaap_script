@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 echo "======= remove local manifest success====="
 # Initialize repo
-repo init -u https://github.com/CipherOS/android_manifest.git -b fifteen
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 echo "======repo Initialize success===="
 # repo sync
 /opt/crave/resync.sh
@@ -30,9 +30,9 @@ git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --dep
 # set build environment
 . build/envsetup.sh
 # Choose a target device
-lunch cipher_sunny-userdebug
-# Compile CipherOS
-mka bacon -j$(nproc --all)
+lunch derp_sunny-userdebug
+# Compile DerpFest
+mka derp
 
 
 
