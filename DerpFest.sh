@@ -11,6 +11,7 @@ rm -rf device/xiaomi/sunny-kernel
 rm -rf vendor/xiaomi/sunny
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
+rm -rf hardware/xiaomi
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
 rm -rf packages/apps/DisplayFeatures
