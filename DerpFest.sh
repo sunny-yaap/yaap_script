@@ -2,7 +2,7 @@
 
 # Remove local manifests if they exist
 # rm -rf .repo/local_manifests
-echo "======= remove local manifest success====="
+# echo "======= remove local manifest success====="
 # Initialize repo
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 echo "======repo Initialize success===="
