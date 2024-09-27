@@ -35,7 +35,7 @@ git clone https://github.com/yaap/device_xiaomi_sunny-kernel.git --depth 1 -b fi
 # vendor tree
 git clone https://github.com/yaap/vendor_xiaomi_sunny.git --depth 1 -b fifteen vendor/xiaomi/sunny
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fifteen vendor/qcom/common
-git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git -depth 1 -b fifteen vendor/qcom/opensource/core-utils
+git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fifteen vendor/qcom/opensource/core-utils
 # hardware tree
 git clone https://github.com/yaap/hardware_xiaomi.git --depth 1 -b fifteen hardware/xiaomi
 # prebuilts
