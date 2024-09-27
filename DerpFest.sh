@@ -51,6 +51,8 @@ git clone https://github.com/dpenra-sunny2/frameworks_base.git --depth 1 -b 15 f
 . build/envsetup.sh
 # Choose a target device
 lunch derp_sunny-userdebug
+# clean install
+make installclean
 # Compile DerpFest
 mka derp
 
