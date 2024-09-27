@@ -15,6 +15,7 @@ rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
 rm -rf packages/apps/DisplayFeatures
 rm -rf packages/apps/KProfiles
+rm -rf device/qcom/device_qcom_common
 # Initialize repo
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 echo "======repo Initialize success===="
