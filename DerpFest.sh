@@ -29,7 +29,7 @@ echo "============remove frameworks/base success============"
 # device tree
 git clone https://github.com/dpenra-sunny2/device_xiaomi_sunny.git --depth 1 -b fifteen device/xiaomi/sunny
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen device/qcom/common
-git clone https://github.com/AOSPA/android_device_qcom_qssi.git -depth 1 -b uvite device/qcom/qssi
+git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b uvite device/qcom/qssi
 # kernel tree
 git clone https://github.com/yaap/device_xiaomi_sunny-kernel.git --depth 1 -b fifteen device/xiaomi/sunny-kernel
 # vendor tree
