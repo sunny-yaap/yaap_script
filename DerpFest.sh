@@ -51,7 +51,7 @@ git clone https://github.com/amanrajOO7/frameworks_base.git --depth 1 -b 15 fram
 # Choose a target device
 lunch derp_sunny-userdebug
 # clean install
-make installclean
+# make installclean
 # Compile DerpFest
 mka derp
 
