@@ -45,7 +45,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeatures.git --depth 1 -b master packages/apps/DisplayFeatures
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 # source modification
-git clone https://github.com/dpenra-sunny2/frameworks_base.git --depth 1 -b 15 frameworks/base
+git clone https://github.com/amanrajOO7/frameworks_base.git --depth 1 -b 15 frameworks/base
 # set build environment
 . build/envsetup.sh
 # Choose a target device
