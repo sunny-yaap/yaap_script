@@ -4,18 +4,18 @@
 rm -rf .repo/local_manifests
 echo "======= remove local manifest success====="
 # remove tree
-rm -rf device/xiaomi/sunny
-rm -rf device/qcom/common
-rm -rf device/qcom/qssi
-rm -rf device/xiaomi/sunny-kernel
-rm -rf vendor/xiaomi/sunny
-rm -rf vendor/qcom/common
-rm -rf vendor/qcom/opensource/core-utils
-rm -rf hardware/xiaomi
-rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
-rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
-rm -rf packages/apps/DisplayFeatures
-rm -rf packages/apps/KProfiles
+# rm -rf device/xiaomi/sunny
+# rm -rf device/qcom/common
+# rm -rf device/qcom/qssi
+# rm -rf device/xiaomi/sunny-kernel
+# rm -rf vendor/xiaomi/sunny
+# rm -rf vendor/qcom/common
+# rm -rf vendor/qcom/opensource/core-utils
+# rm -rf hardware/xiaomi
+# rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
+# rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
+# rm -rf packages/apps/DisplayFeatures
+# rm -rf packages/apps/KProfiles
 echo "==============removing previous tree done=========="
 # Initialize repo
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
