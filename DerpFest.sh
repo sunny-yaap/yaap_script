@@ -24,7 +24,7 @@ echo "================repo Initialize success========="
 /opt/crave/resync.sh
 echo "==========repo sync success====="
 # remove source frameworks/base
-rm -rf frameworks/base
+# rm -rf frameworks/base
 echo "============remove frameworks/base success============" 
 # device tree
 git clone https://github.com/dpenra-sunny2/device_xiaomi_sunny.git --depth 1 -b fifteen device/xiaomi/sunny
@@ -45,7 +45,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeatures.git --depth 1 -b master packages/apps/DisplayFeatures
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 # source modification
-git clone https://github.com/amanrajOO7/frameworks_base.git --depth 1 -b 15 frameworks/base
+# git clone https://github.com/amanrajOO7/frameworks_base.git --depth 1 -b 15 frameworks/base
 # set build environment
 . build/envsetup.sh
 # Choose a target device
