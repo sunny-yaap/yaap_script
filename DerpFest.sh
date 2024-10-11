@@ -17,10 +17,10 @@ echo "======= remove local manifest success====="
 # rm -rf packages/apps/DisplayFeatures
 # rm -rf packages/apps/KProfiles
 echo "==============removing previous tree done=========="
-# Initialize repo
+# To initialize your local repository using the AOSP/CAF based DerpFest source
 repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15
 echo "================repo Initialize success========="
-# repo sync
+# Sync up:
 /opt/crave/resync.sh
 echo "==========repo sync success====="
 # remove source frameworks/base
@@ -46,13 +46,13 @@ git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeature
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 # source modification
 # git clone https://github.com/amanrajOO7/frameworks_base.git --depth 1 -b 15 frameworks/base
-# set build environment
+# Initiate the build:
 . build/envsetup.sh
-# Choose a target device
+# Prepare device
 lunch derp_sunny-userdebug
 # clean install
 # make installclean
-# Compile DerpFest
+# Compile DerpFest or fire it off
 mka derp
 
 
